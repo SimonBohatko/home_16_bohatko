@@ -1,0 +1,78 @@
+a:hover {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+header {
+  background-color: #191919;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: rgb(255, 170, 0);
+    background: #191919;
+  }
+}
+
+main {
+  background-color: rgb(255, 170, 0);
+}
+
+header .fa-bars {
+  color: white;
+}
+
+.popup-block {
+  background-color: #191919;
+}
+
+.description {
+  color: whitesmoke;
+}
+
+.popup-close:hover,
+.popup span a:hover {
+  color: rgb(255, 170, 0);
+}
+
+form .tool {
+  color: purple;
+  position: absolute;
+  opacity: 0;
+  margin: 2px 0 0 10px;
+}
+
+#input1:hover + #tool {
+  opacity: 1;
+  transition: 0.6s;
+}
+
+input:focus {
+  outline-color: purple;
+}
+
+.tooltip-block {
+  background: white;
+}
+
+.footer {
+  background: #191919;
+  color: whitesmoke;
+}
+
+body {
+  background: #191919;
+}

@@ -1,0 +1,54 @@
+@media screen and (max-width: 769px) {
+  .hamb-menu {
+    display: block;
+  }
+  header .header nav {
+    ul {
+      float: none;
+      margin: 0;
+      padding: 0;
+
+      a {
+        line-height: 40px;
+        text-align: center;
+        display: block;
+        border-bottom: 2px solid grey;
+        padding: 0;
+      }
+
+      a:last-child {
+        border: none;
+      }
+
+      a:hover {
+        background: #252525;
+        color: white;
+      }
+
+      a {
+        font-size: 23px;
+      }
+    }
+  }
+
+  nav .menu-responsive {
+    display: none;
+  }
+
+  .tool-tip .tool {
+    display: block;
+    position: static;
+    margin-top: 10px;
+  }
+
+  .tool span {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 770px) {
+  nav .menu-responsive {
+    display: block !important;
+  }
+}
+

@@ -1,0 +1,39 @@
+.tabs {
+  max-width: 800px;
+  margin: 110px auto 120px auto;
+}
+
+ul.tab-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul.tab-list li {
+  background: none;
+  color: #222;
+  display: inline-block;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px 4px 0 0;
+}
+
+ul.tab-list li:hover {
+  background: rgba(237, 237, 237, 0.55);
+}
+
+ul.tab-list li.current {
+  background: #1a1a1a;
+  color: white;
+}
+
+.tab-content {
+  display: none;
+  background: whitesmoke;
+  padding: 15px;
+  border-radius: 1px 1px 2px 2px;
+}
+
+.tab-content.current {
+  display: block;
+}

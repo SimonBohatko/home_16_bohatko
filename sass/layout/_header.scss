@@ -1,0 +1,48 @@
+.header {
+  overflow: auto;
+  ul {
+    margin: 30px 40px;
+    padding: 0;
+    float: right;
+    list-style: none;
+    a {
+      display: inline-block;
+      padding-right: 25px;
+    }
+
+    a:last-child {
+      padding-right: 0;
+    }
+  }
+}
+
+.header:after {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+header .fa-bars {
+  margin: 25px 50px;
+  float: right;
+}
+
+nav {
+  overflow: auto;
+}
+
+nav:after {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.hamb-menu {
+  display: none;
+}
+
+.hamb-menu:after {
+  display: table;
+  content: '';
+  clear: both;
+}

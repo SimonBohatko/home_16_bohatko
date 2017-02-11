@@ -1,0 +1,53 @@
+main {
+  overflow: auto;
+}
+
+main .accordion {
+  max-width: 700px;
+  margin: 0 auto 165px auto;
+}
+
+main .accordion-block,
+.tabs-block {
+  margin: 0;
+  overflow: auto;
+}
+
+main .popup-block {
+  overflow: auto;
+}
+
+.description {
+  text-align: center;
+  margin: 50px 0 0 0;
+}
+
+.description {
+  margin: 130px 0 50px 0;
+}
+
+.tooltip-block {
+  overflow: auto;
+}
+
+.tool-tip {
+  margin: 150px 0;
+  text-align: center;
+}
+
+form input[type='text'] {
+  background: black;
+  color: white;
+}
+
+form .tool {
+  display: inline-block;
+}
+
+.footer div {
+  margin-left: 20px;
+}
+
+label {
+  margin-right: 2px;
+}
